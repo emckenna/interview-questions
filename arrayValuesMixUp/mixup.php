@@ -17,9 +17,20 @@ function mixup($arr) {
 	return $arr;
 }
 
+// this could work i guess
+function withShuffle($arr) {
+	shuffle($arr);
+	return $arr;
+}
+
+//unset
+function withUnset($arr) {
+	return $arr;
+}
+
 // initial array
 $given = array(1,2,3,4,5,6,7,8,9,10);
 
-print_r($given);
-
-print_r(mixup($given));
+myprint($given);
+myprint(mixup($given));
+myprint(withShuffle($given));
