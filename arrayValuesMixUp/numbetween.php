@@ -13,3 +13,14 @@ function numBetween($x,$y) {
 
 	return rand($x,$y);
 }
+
+
+function myprint($arr) {
+	if(is_array($arr)) {
+		echo implode(', ', $arr) . "\n";
+	}
+	else {
+		echo "Only prints arrays!\n";
+	}
+
+}
