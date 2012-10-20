@@ -5,3 +5,4 @@
 ## TODO:
 * pascals triangle
 * fibbonaci
+* palindrone string test
