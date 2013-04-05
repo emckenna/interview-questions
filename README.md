@@ -6,3 +6,4 @@
 * pascals triangle
 * fibbonaci
 * palindrone string test
+* add fizz buzz - http://c2.com/cgi/wiki?FizzBuzzTest
